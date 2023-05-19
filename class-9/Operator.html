@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript String Operators</h1>
+    <h2>The += Operator</h2>
+    <p>The assignment operator += can concatenate strings.</p>
+    
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    
+    <script>
+    let text1 = "What a very ";
+    text1 += "nice day";
+    document.getElementById("demo").innerHTML = text1;
+
+    let x = 5 + 5;
+    let y = "5" + 5;
+    let z = "Hello" + 5;
+    document.getElementById("demo2").innerHTML =
+    x + "<br>" + y + "<br>" + z;
+
+    console.log(typeof x)
+    console.log(typeof y)
+    console.log(typeof z)
+
+    </script>
+</body>
+</html>
