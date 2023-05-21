@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>JavaScript Strings</h2>
+    <p>You can use quotes inside a string, as long as they don't match the quotes surrounding the string:</p>
+    <p id="demo"></p>
+
+    <h2>JavaScript Numbers</h2>
+    <p>Numbers can be written with, or without decimals:</p>
+     <p id="demo2"></p>
+
+    <h2>JavaScript Booleans</h2>
+    <p>Booleans can have two values: true or false:</p>
+    <p id="demo3"></p>
+    
+    <h2>JavaScript Arrays</h2>
+    <p>Array indexes are zero-based, which means the first item is [0].</p>
+    <p id="demo4"></p>
+    <script>
+    let answer1 = "It's alright";
+    let answer2 = "He is called 'Johnny'";
+    let answer3 = 'He is called "Johnny"';
+
+    document.getElementById("demo").innerHTML =
+    answer1 + "<br>" + 
+    answer2 + "<br>" + 
+    answer3;
+
+    let x1 = 34.00;
+    let x2 = 34;
+    let x3 = 3.14;
+
+    document.getElementById("demo2").innerHTML =
+    x1 + "<br>" + x2 + "<br>" + x3;
+    let x = 5;
+    let y = 5;
+    let z = 6;
+
+    document.getElementById("demo3").innerHTML =
+    (x == y) + "<br>" + (x == z);
+    const cars = ["Saab","Volvo","BMW"];
+    document.getElementById("demo42").innerHTML = cars[0];
+    </script>
+</body>
+</html>
