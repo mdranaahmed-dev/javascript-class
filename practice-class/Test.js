@@ -40,5 +40,8 @@ function toCelsius(f) {
 let value = toCelsius;
 document.getElementById("demo2").innerHTML = value;
 
+document.querySelector("x").innerHTML;
+
+
 
 
