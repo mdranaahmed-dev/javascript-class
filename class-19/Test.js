@@ -23,3 +23,19 @@ console.log(d + h);
 console.log(x * y);
 console.log(t / f)
 
+const car = {
+
+    name: "jj",
+    color: "red",
+
+    strat: function () {
+        console.log("jdhvld");
+    },
+};
+
+
+window.alert("jhh");
+var p = "Hello";
+var k = "hd";
+
+document.getElementById("j").innerHTML = p;
