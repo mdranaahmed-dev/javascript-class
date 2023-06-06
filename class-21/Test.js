@@ -25,3 +25,31 @@ function myFunction (rana) {
 apple.forEach(myFunction);
 
 console.log("Finish");
+
+var i;
+for(i=0; i<10; i=i+1) {
+
+  if (i==5 || i==8) {
+    continue; 
+  }
+  document.write(i+"<button>Sing in</button>");
+}
+
+var b;
+
+for (b=0; b<10; b=b+1) {
+
+  if (b===3) {
+    break;
+  }
+  document.write(b+"HELLO");
+}
+
+var k;
+for (k=0; k<8; k=k+2) {
+  document.write("I Love bangladesh <br>");
+
+}
+
+const c = ["Hello", "Hi", "Good"];
+document.write(c);
