@@ -12,6 +12,6 @@ document.write(f + "<br>");
 
 const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-const g = new Date();
+const g  = new Date();
 let day = days[d.getDay()];
 document.getElementById("demo4").innerHTML = day;
