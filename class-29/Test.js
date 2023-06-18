@@ -12,5 +12,4 @@ document.write(d + "<br>");
 
 const b = new Date();
 d.setHours(22);
-
 document.write(b + "<br>")
