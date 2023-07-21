@@ -12,7 +12,11 @@ document.write(d + "<br>");
 
 const b = new Date();
 d.setHours(22);
-document.write(b + "<br>")
+document.write(b + "<br>");
 
-var k = Math.floor(Math.random() * 10)() 
+var k = Math.random() 
 document.write(k);
+
+var furts = ["Mango", "banna"];
+furts.join(" * ");
+document.write(furts);
