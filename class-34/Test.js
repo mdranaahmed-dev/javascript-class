@@ -34,3 +34,15 @@ switch (new Date().getDay()) {
     day = "Saturday";
 }
 document.getElementById("demo5").innerHTML = "Today is " + day;
+
+let month;
+switch (new Date().getDay()){
+  case 0:
+  month = "Janu";
+  break;
+  case 1:
+  month = "Feb";
+  break;
+};
+
+document.getElementById("demo6").innerHTML = "Today is " + day;
