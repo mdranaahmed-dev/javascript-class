@@ -20,3 +20,10 @@ do{
   document.write(i+"hell<br>")
   i=i+1
 }while (i<6)
+
+function myFunction (Name) {
+  document.write(Name);
+}
+myFunction("Rana<br>");
+myFunction("hlle<br>");
+myFunction("Rana<br>");
