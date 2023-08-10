@@ -33,6 +33,7 @@ do{
 let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 document.write(text.slice(4,23));
 
+//function return
 function MyFunctio(b)  {
   let text = ["aplle", "hello", "MIMi"];
   document.write(text);
@@ -59,14 +60,12 @@ function custonerLOginFrom(customerId, customerName) {
 }
 
 function chekCustomerId (customerId, customerName) {
-  if (customerId == 12345 && customerName  >=18){
+  if (customerId == 12345 && customerName  >=50){
     return true;
   }
   return false;
 }
 
-if (custonerLOginFrom(12345, 18)){
+if (custonerLOginFrom(12345, 50)){
   alert("Registraion Sucessfully")
 }else("Registraion Failed");
-
- 
