@@ -15,3 +15,10 @@ letter.add(b);
 letter.add(c);
 
 console.log(letter);
+
+let name = prompt("Plz inter Your Name");
+let age = prompt ("Inter Your Name Plz");
+let skill = prompt("Inter Your skill");
+document.write(skill);
+console.log(`Hi My name Is ${name} and My age ${age} ${skill}`);
+
